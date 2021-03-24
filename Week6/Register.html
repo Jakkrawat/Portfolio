@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>Register</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='Custom.css'>
+	<script src='Register.js'></script>
+</head>
+<body>
+	<form name="Myform" id="Myform" action="Login.html">
+		<fieldset id="Regisform">
+			<legend id="Topic">Register</legend>
+			<span>*require</span>
+			<span id="Errormsg"></span> <br>
+			
+			First name*: 
+			<input type="Text" name="Firstname"required >
+			<br>
+			
+            Last name*: 
+			<input type="Text" name="Lastname"required >
+			<br>
+			
+            Gender*: 
+			<input type="Radio" name="Gender" value="Male"required >Male
+			<input type="Radio" name="Gender" value="Female"required >Female
+			<input type="Radio" name="Gender" value="Other" required>Other
+			<br>
+			
+            Birthday*: 
+			<input type="Date" name="Birthday" value="" required>
+			<br>
+			
+            Email address*: 
+			<input type="Email" name="Email" required>
+			<br>
+			
+            Username*: 
+			<input type="Text" name="Username"required >
+			<br>
+			
+            Password*: 
+			<input type="Password" name="Password" required>
+			<br>
+			
+            Retype Password*: 
+			<input type="Password" name="Retypepassword" required>
+			<br>
+			<input type="Submit"  value="Register">
+			<input type="Reset" value="Reset">
+		</fieldset>
+	</form>
+</body>
+</html>
